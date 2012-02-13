@@ -1,0 +1,16 @@
+Source: python-keystoneclient
+Section: python
+Priority: extra
+Maintainer: RCB Builder <rcb-deploy@lists.rackspace.com>
+XCBS-Original-Maintiner: Chuck Short <zulcss@ubuntu.com>
+Build-Depends: debhelper (>= 8.0.0), python-httplib2, python-argparse, python-setuptools,
+ python-all (>= 2.6.6-3~), python-nose, python-prettytable, python-nose, python-mox, python-mock, python-simplejson
+Standards-Version: 3.9.2
+XCBS-RCB-Component: essex-e3
+
+Package: python-keystoneclient
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-httplib2
+Description: Client libary for Openstack Keystone API
+ This is a client for the OpenStack Keystone API. There's a Python API
+ (the ``keystoneclient`` module), and a command-line script (``keystone``).

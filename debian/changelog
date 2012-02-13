@@ -1,0 +1,8 @@
+python-keystoneclient (2012.0+e3-rcb1) precise; urgency=low
+
+  * initial build https://github.com/openstack/python-keystoneclient.git,
+    revision: 8db366c448d4074c044f596a8e4271befdb797cb (essex-3 tag),
+    based on packaging from python-keystoneclient-2012.1~e4~20120203.0-ubuntu2
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Mon, 13 Feb 2012 12:59:36 -0600
+

@@ -1,0 +1,20 @@
+diff -Naurp python-keystoneclient.orig/setup.py python-keystoneclient/setup.py
+--- python-keystoneclient.orig/setup.py	2012-02-01 09:36:54.639151237 -0500
++++ python-keystoneclient/setup.py	2012-02-01 09:37:17.543151339 -0500
+@@ -6,7 +6,7 @@ from setuptools import setup, find_packa
+ def read(fname):
+     return open(os.path.join(os.path.dirname(__file__), fname)).read()
+ 
+-requirements = ['httplib2', 'argparse', 'prettytable']
++requirements = ['httplib2', 'prettytable']
+ if sys.version_info < (2, 6):
+     requirements.append('simplejson')
+ 
+diff -Naurp python-keystoneclient.orig/tools/pip-requires python-keystoneclient/tools/pip-requires
+--- python-keystoneclient.orig/tools/pip-requires	2012-02-01 09:36:54.639151237 -0500
++++ python-keystoneclient/tools/pip-requires	2012-02-01 09:37:26.963151443 -0500
+@@ -1,4 +1,3 @@
+-argparse
+ coverage
+ httplib2
+ mock

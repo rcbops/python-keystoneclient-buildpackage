@@ -16,5 +16,5 @@ get-orig-source:
 
 override_dh_install:
 	# we'll not install the keystone client until
-	rm debian/tmp/bin/keystone
+	rm debian/python-keystoneclient/usr/bin/keystone
 	dh_install

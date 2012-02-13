@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: RCB Builder <rcb-deploy@lists.rackspace.com>
 XCBS-Original-Maintiner: Chuck Short <zulcss@ubuntu.com>
 Build-Depends: debhelper (>= 8.0.0), python-httplib2, python-argparse, python-setuptools,
- python-all (>= 2.6.6-3~), python-nose, python-prettytable, python-nose, python-mox, python-mock, python-simplejson
+ python-all, python-nose, python-prettytable, python-nose, python-mox, python-mock, python-simplejson
 Standards-Version: 3.9.2
 XCBS-RCB-Component: essex-e3
 

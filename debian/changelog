@@ -1,3 +1,10 @@
+python-keystoneclient (2012.0+e3-rcb2) precise; urgency=low
+
+  * install "keystone" client binary as "keystone-new" to not conflict
+    with keystone server
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Sat, 17 Mar 2012 15:48:29 -0700
+
 python-keystoneclient (2012.0+e3-rcb1) precise; urgency=low
 
   * initial build https://github.com/openstack/python-keystoneclient.git,

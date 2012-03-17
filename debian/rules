@@ -15,6 +15,5 @@ get-orig-source:
 	uscan --verbose --force-download --rename --destdir=../build-area
 
 override_dh_install:
-	# we'll not install the keystone client until
-	rm debian/python-keystoneclient/usr/bin/keystone
+	mv debian/python-keystoneclient/usr/bin/keystone debian/python-keystoneclient/user/bin/keystone-new
 	dh_install

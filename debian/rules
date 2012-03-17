@@ -15,5 +15,5 @@ get-orig-source:
 	uscan --verbose --force-download --rename --destdir=../build-area
 
 override_dh_install:
-	mv debian/python-keystoneclient/usr/bin/keystone debian/python-keystoneclient/user/bin/keystone-new
 	dh_install
+	mv debian/python-keystoneclient/usr/bin/keystone debian/python-keystoneclient/usr/bin/keystone-new
